@@ -1,0 +1,475 @@
+:root {
+  --body-color: rgb(158, 17, 17);
+  --side-color: black;
+
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  /* border: 1px solid black; */
+}
+
+/*top of page*/
+
+header {
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: var(--body-color);
+}
+
+header .name {
+  margin: 10px;
+}
+
+header .name h1 {
+  font-size: 400%;
+  font-variant-caps: small-caps;
+  font-weight: normal;
+}
+
+/*narbar at the top*/
+
+nav {
+  display: flex;
+  margin: 5px;
+}
+
+nav a {
+  color: var(--body-color);
+  font-size: 150%;
+  margin: 30px 5px 10px 0;
+  padding: 15px 15px 5px 15px;
+  text-decoration: none;
+}
+
+nav a:focus {
+  border-bottom: 3px solid white;
+  outline: 0;
+}
+
+nav a:hover {
+  color: white;
+}
+
+/*Decorative picture*/
+.hero {
+  background-image: url(https://th.bing.com/th/id/R.eccc26b677d66948f4d7a8c8a6e556b7?rik=sRHuIkTdcUSkZQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fbEfWSFd.jpg&ehk=Eg5YmSDUK%2fYngAusEGcjFFuUmF6PXGxB6YQcMP5BwZM%3d&risl=&pid=ImgRaw&r=0);
+  background-position: top right 50%;
+  height: 200px;
+  width: 100%;
+}
+
+/*side of page*/
+.side {
+  background-color: var(--side-color);
+  flex-shrink: 0;
+  width: 300px;
+}
+
+.side h2 {
+  align-self: flex-start;
+  background-color: var(--side-color);
+  text-align: right;
+  color: white;
+  border-radius: 10px;
+  border-right: 5px solid red;
+  margin-right: 10px;
+  margin-top: 5%;
+  padding: 10px 10px 50px 0px;
+  font-size: xx-large;
+}
+
+
+/*about me*/
+.about {
+  background-color: var(--body-color);
+  display: flex;
+  color: white;
+  font-size: large;
+ 
+}
+
+.about section {
+  line-height: 1.6;
+  margin: 2% 3%;
+  text-indent: 20px;
+
+}
+
+.about p {
+  padding-top: 10px;
+}
+
+.about figure {
+  margin: 1%;
+  text-align:center;
+}
+
+.about img {
+  border: 10px solid;
+  border-image:url(https://th.bing.com/th/id/R.eccc26b677d66948f4d7a8c8a6e556b7?rik=sRHuIkTdcUSkZQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fbEfWSFd.jpg&ehk=Eg5YmSDUK%2fYngAusEGcjFFuUmF6PXGxB6YQcMP5BwZM%3d&risl=&pid=ImgRaw&r=0) 30 round;
+  border-radius: 40px;
+  padding: 5px;
+  height: 450px;
+ 
+  }
+
+.about figcaption {
+  background-color: var(--body-color);
+  border: 5px solid black;
+  border-radius: 10px;
+
+  margin: 0 auto;
+  max-width: 80%;
+  padding: 5px 20px;
+  position: relative;
+  top: -14px;
+}
+
+/* Work section */
+
+.work {
+  background: black;
+  display: flex;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2% 5%;
+  width: 100%;
+}
+
+.card {
+  background-position: center;
+  background-size: 50%;
+
+  border: 10px solid transparent;
+  border-image: url(https://th.bing.com/th/id/R.eccc26b677d66948f4d7a8c8a6e556b7?rik=sRHuIkTdcUSkZQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fbEfWSFd.jpg&ehk=Eg5YmSDUK%2fYngAusEGcjFFuUmF6PXGxB6YQcMP5BwZM%3d&risl=&pid=ImgRaw&r=0) 30 round;
+  margin: 10px 0;
+
+  width: 40%;
+  min-height: 200px;
+  height: 30vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  line-height: 1;
+  transition: all 1s;
+}
+
+#goodfellas{
+  background-image: url(https://media.timeout.com/images/102639964/image.jpg);
+  background-position: center;
+  background-size: 50%;
+
+  border: 10px solid transparent;
+  border-image: url(https://th.bing.com/th/id/R.eccc26b677d66948f4d7a8c8a6e556b7?rik=sRHuIkTdcUSkZQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fbEfWSFd.jpg&ehk=Eg5YmSDUK%2fYngAusEGcjFFuUmF6PXGxB6YQcMP5BwZM%3d&risl=&pid=ImgRaw&r=0) 30 round;
+  margin: 10px 0;
+
+  width: 40%;
+  min-height: 200px;
+  height: 30vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  line-height: 1;
+  transition: all 1s;
+}
+
+#ryan{
+  background-image: url(https://i.pinimg.com/736x/3f/f3/26/3ff326afaa3fa673e29b8bfd21dab310--ryan-reynolds-sexy-men.jpg);
+  background-position: center;
+  background-size: 50%;
+
+  border: 10px solid transparent;
+  border-image: url(https://th.bing.com/th/id/R.eccc26b677d66948f4d7a8c8a6e556b7?rik=sRHuIkTdcUSkZQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fbEfWSFd.jpg&ehk=Eg5YmSDUK%2fYngAusEGcjFFuUmF6PXGxB6YQcMP5BwZM%3d&risl=&pid=ImgRaw&r=0) 30 round;
+  margin: 10px 0;
+
+  width: 40%;
+  min-height: 200px;
+  height: 30vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  line-height: 1;
+  transition: all 1s;
+}
+
+#adam{
+  background-image: url(https://pacechronicle.com/wp-content/uploads/2017/04/gettyimages-499362720.jpg);
+  background-position: center;
+  background-size: 50%;
+
+  border: 10px solid transparent;
+  border-image: url(https://th.bing.com/th/id/R.eccc26b677d66948f4d7a8c8a6e556b7?rik=sRHuIkTdcUSkZQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fbEfWSFd.jpg&ehk=Eg5YmSDUK%2fYngAusEGcjFFuUmF6PXGxB6YQcMP5BwZM%3d&risl=&pid=ImgRaw&r=0) 30 round;
+  margin: 10px 0;
+
+  width: 40%;
+  min-height: 200px;
+  height: 30vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  line-height: 1;
+  transition: all 1s;
+}
+
+#office{
+  background-image: url(https://th.bing.com/th/id/R.63193e2dab93e0ec1210e92d486bed02?rik=QknsN3epr%2ftqhw&riu=http%3a%2f%2fwww.nbc.com%2fsites%2fnbcunbc%2ffiles%2ffiles%2fimages%2f2013%2f12%2f10%2f2013_1025_Office_AboutImage_1920x1080_AC.jpg&ehk=HCWjVmFWiVfEc%2b6zC2YDMIhJ4xzfSUg6fBxxb1%2f62Og%3d&risl=&pid=ImgRaw&r=0);
+  background-position: center;
+  background-size: 50%;
+
+  border: 10px solid transparent;
+  border-image: url(https://th.bing.com/th/id/R.eccc26b677d66948f4d7a8c8a6e556b7?rik=sRHuIkTdcUSkZQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fbEfWSFd.jpg&ehk=Eg5YmSDUK%2fYngAusEGcjFFuUmF6PXGxB6YQcMP5BwZM%3d&risl=&pid=ImgRaw&r=0) 30 round;
+  margin: 10px 0;
+
+  width: 40%;
+  min-height: 200px;
+  height: 30vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  line-height: 1;
+  transition: all 1s;
+}
+
+#seahawks{
+  background-image: url(https://th.bing.com/th/id/R.a5d43cacf32f074ddcc2549106aa4cac?rik=91ZUd9Ay1S5gzw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f2%2fe%2f8%2f673236.jpg&ehk=ayzuq1BI7aWQw53SD3%2fmkVDv1devcWnW9xLSQkW5ZU8%3d&risl=&pid=ImgRaw&r=0);
+  background-size: 50%;
+
+  border: 10px solid transparent;
+  border-image: url(https://th.bing.com/th/id/R.eccc26b677d66948f4d7a8c8a6e556b7?rik=sRHuIkTdcUSkZQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fbEfWSFd.jpg&ehk=Eg5YmSDUK%2fYngAusEGcjFFuUmF6PXGxB6YQcMP5BwZM%3d&risl=&pid=ImgRaw&r=0) 30 round;
+  margin: 10px 0;
+
+  width: 40%;
+  min-height: 200px;
+  height: 30vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  line-height: 1;
+  transition: all 1s;
+}
+
+#world {
+  background-image:url(https://snz04pap001files.storage.live.com/y4mBwrCWlny_XGFyb6J-_H9JrDLYRs4afwORriYIdQv4sTA-6a4ChzOUtFnAB3JIUvYfL8hX7SHg-_C5S09C0GyYMmkQcYXHTkcavSgbNg3Q2T9wLGd-A9XJjEjqI06Lpk1LtajSx-cS8BMgsKFUHzfPdtvbpgRVd_g6l_RHwWdE2x7Dp61xRDVsWLau4WeNioFnPmyhCVTk7HWZPngfanZI9DqEkz8GpJHyyn95eu8PAg?encodeFailures=1&width=730&height=913);
+  background-size: 50%;
+
+  border: 10px solid transparent;
+  border-image: url(https://th.bing.com/th/id/R.eccc26b677d66948f4d7a8c8a6e556b7?rik=sRHuIkTdcUSkZQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fbEfWSFd.jpg&ehk=Eg5YmSDUK%2fYngAusEGcjFFuUmF6PXGxB6YQcMP5BwZM%3d&risl=&pid=ImgRaw&r=0) 30 round;
+  margin: 10px 0;
+
+  width: 40%;
+  min-height: 200px;
+  height: 30vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  line-height: 1;
+  transition: all 1s;
+}
+
+
+#rock {
+      background-image:url(https://snz04pap001files.storage.live.com/y4mt1pjd_omKTRMfiyfz-xIES8xeRZXt3odgO2gGvdVKw49iouIvbLqqoYYPe1GpCZ8FW1hUaPp-lz-kxY697dFP5wFN2WGLMpwI1_k6JjIf7Jwn9mxm8mJEAmeW5w6tgQemh2hxWhMA7aPG43R_iP912KiiPh0J8wxcrFFPgDMa0iTGwWXgLCTBBueJnnLJRTj3OYi-C3FS2jDH2zJzCsMx1S8lZJSSfEuySBLTTgmgM8?encodeFailures=1&width=730&height=913);
+      background-size: 50%;
+    
+      border: 10px solid transparent;
+      border-image: url(https://th.bing.com/th/id/R.eccc26b677d66948f4d7a8c8a6e556b7?rik=sRHuIkTdcUSkZQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fbEfWSFd.jpg&ehk=Eg5YmSDUK%2fYngAusEGcjFFuUmF6PXGxB6YQcMP5BwZM%3d&risl=&pid=ImgRaw&r=0) 30 round;
+      margin: 10px 0;
+    
+      width: 40%;
+      min-height: 200px;
+      height: 30vh;
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    
+      line-height: 1;
+      transition: all 1s;
+    }
+
+    #cancer {
+      background-image:url(https://snz04pap001files.storage.live.com/y4m1_kjmROes5XqiUVG748MmS4H5P25ccOwIutxtCjz0Z0sx96k-2AXfTaUfPV-xmfh2wJRz91t9EkzP0-XaDPIOZ-RMfQmTbuWo1tGyPUb5TzccBOiL4FX9-jKj5Og83v9X6ra_HGQli5P12yvwBIt5vUma8dielWuWLBAY9VCAnUrxnKyjc06uq-K3uPplJu8yj8-uOL4oNltmnjWBguZ2MyIfCcd6i-6mIhcKuYN1Mc?encodeFailures=1&width=730&height=913);
+      background-size: 50%;
+    
+      border: 10px solid transparent;
+      border-image: url(https://th.bing.com/th/id/R.eccc26b677d66948f4d7a8c8a6e556b7?rik=sRHuIkTdcUSkZQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fbEfWSFd.jpg&ehk=Eg5YmSDUK%2fYngAusEGcjFFuUmF6PXGxB6YQcMP5BwZM%3d&risl=&pid=ImgRaw&r=0) 30 round;
+      margin: 10px 0;
+    
+      width: 40%;
+      min-height: 200px;
+      height: 30vh;
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    
+      line-height: 1;
+      transition: all 1s;
+    }
+    
+  
+
+
+
+.card#Edward {
+  background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/11/Pictures-Edward-Scissorhands.jpg);
+  background-position: center;
+  height: 45vh;
+  min-height: 300px;
+  width: 90%;
+}
+
+.card section {
+  background-color: var(--body-color);
+  bottom: 20px;
+  color: white;
+  line-height: 1.1;
+  margin: 0 auto 0 0;
+  padding: 2px 25px 5px 5px;
+  position: relative;
+}
+
+.card h3{
+  font-size: 180%;
+}
+
+.card p {
+  font-style: italic;
+}
+
+.card:focus {
+  outline: 0;
+  border-color: red;
+}
+
+.card:hover {
+  transition: all 0.5s;
+  transform: scale(1.05,1.05);
+  background-size: 60%;
+}
+
+/*contact section*/
+
+.contact {
+  background-color: var(--body-color);
+  display: flex;
+}
+
+.contact section {
+  display: flex;
+  width: 200%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact a {
+  font-size: 200%;
+  color: white;
+  border-bottom: 5px solid black;
+}
+
+.contact a:hover {
+  color:black;
+}
+
+/* footer part */
+
+footer {
+  height: 100px;
+  background-image: url(https://th.bing.com/th/id/R.eccc26b677d66948f4d7a8c8a6e556b7?rik=sRHuIkTdcUSkZQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fbEfWSFd.jpg&ehk=Eg5YmSDUK%2fYngAusEGcjFFuUmF6PXGxB6YQcMP5BwZM%3d&risl=&pid=ImgRaw&r=0);
+  text-align: center;
+}
+
+footer p {
+  font-style: italic;
+  font-size: 100%;
+  padding: 30px 0;
+  color: white;
+}
+
+/*tablet*/
+
+@media screen and (max-width:992px) {
+  .side {
+      width: 180px;
+  }
+  header {
+      flex-direction: column;
+      justify-content: flex-start;
+  }
+  nav,
+  nav a {
+      flex-direction: row;
+      margin: 0;
+      justify-content: center;
+  }
+
+  .card {
+      width: 90%;
+  }
+}
+
+/*phone*/
+
+@media screen and (max-width:768px) {
+  .side {
+      width: 100%;
+  }
+  
+  .side h2 {
+      padding: 0;
+      border: 0;
+      margin: 0;
+      width: 80%;
+      text-align: left;
+      padding: 10px;
+      border-bottom: 5px solid black;
+      margin: 10px 10px 10px 10px;
+  }
+
+  header {
+      flex-direction: column;
+      justify-content: flex-start;
+  }
+
+  nav, nav a {
+      flex-direction: row;
+      margin: 0;
+      align-items: center;
+      font-size: 100%
+  }
+
+  .about,.work,.contact{
+      flex-direction: column;
+  }
+  .contact a {
+    font-size: medium;
+    flex-wrap: wrap;
+  }
+
+}

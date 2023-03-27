@@ -1,5 +1,10 @@
 # Portfolio
 
+## Link to my Portfolio
+
+https://codingtrophywife.github.io/portfolio/
+
+
 # Discription
 This is my second challenge for school where the task was to create a portfolio where I will one day put all my projcts that I'm most proud of. But for now i filled the spaces with things I love! 
 

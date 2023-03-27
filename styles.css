@@ -92,6 +92,7 @@ nav a:hover {
   display: flex;
   color: white;
   font-size: large;
+  
  
 }
 
@@ -99,6 +100,7 @@ nav a:hover {
   line-height: 1.6;
   margin: 2% 3%;
   text-indent: 20px;
+  
 
 }
 
@@ -109,22 +111,25 @@ nav a:hover {
 .about figure {
   margin: 1%;
   text-align:center;
+  float: right;
+
 }
 
 .about img {
   border: 10px solid;
   border-image:url(https://th.bing.com/th/id/R.eccc26b677d66948f4d7a8c8a6e556b7?rik=sRHuIkTdcUSkZQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fbEfWSFd.jpg&ehk=Eg5YmSDUK%2fYngAusEGcjFFuUmF6PXGxB6YQcMP5BwZM%3d&risl=&pid=ImgRaw&r=0) 30 round;
   border-radius: 40px;
-  padding: 5px;
-  height: 450px;
- 
+  padding: 3px;
+  width: 300px;
+  height: 400px;
+  
+  
   }
 
 .about figcaption {
   background-color: var(--body-color);
   border: 5px solid black;
   border-radius: 10px;
-
   margin: 0 auto;
   max-width: 80%;
   padding: 5px 20px;
@@ -467,9 +472,15 @@ footer p {
   .about,.work,.contact{
       flex-direction: column;
   }
-  .contact a {
-    font-size: medium;
-    flex-wrap: wrap;
-  }
+
+  
+.contact section {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 10px;
+}
 
 }
+

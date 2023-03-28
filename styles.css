@@ -67,7 +67,7 @@ nav a:hover {
 
 .side h2 {
   align-self: flex-start;
-  background-color: darkred;
+  background-color: black;
   text-align: right;
   color: white;
   border-radius: 10px;
@@ -77,8 +77,12 @@ nav a:hover {
   padding: 10px 10px 50px 0px;
   font-size: xx-large;
 }
-
-
+ .aboutside {
+  height: 840px;
+ }
+.workside {
+  height:1300px;
+}
 /*about me*/
 .about {
   background-color: darkred;
@@ -94,7 +98,7 @@ nav a:hover {
 
 }
 
-  .about p {
+.about p {
   padding-top: 10px;
 }
 
@@ -115,7 +119,7 @@ nav a:hover {
 
 .about figcaption {
   border-image: url(https://th.bing.com/th/id/R.eccc26b677d66948f4d7a8c8a6e556b7?rik=sRHuIkTdcUSkZQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fbEfWSFd.jpg&ehk=Eg5YmSDUK%2fYngAusEGcjFFuUmF6PXGxB6YQcMP5BwZM%3d&risl=&pid=ImgRaw&r=0) 30 round;
-  border: 5px solid;
+  border: 9px dotted black;
   border-radius: 10px;
   margin: 0 auto;
   max-width: 80%;
@@ -127,7 +131,7 @@ nav a:hover {
 /* Work section */
 
 .work {
-  background: darkred;
+  background: black;
   display: flex;
 }
 
@@ -220,7 +224,7 @@ nav a:hover {
 }
 
 .card section {
-  background-color: black;
+  background-color: darkred;
   bottom: 20px;
   color: white;
   line-height: 1.1;
@@ -251,7 +255,7 @@ nav a:hover {
 /*contact section*/
 
 .contact {
-  background-color: black;
+  background-color: darkred;
   display: flex;
 }
 
@@ -260,6 +264,7 @@ nav a:hover {
   width: 200%;
   justify-content: space-around;
   align-items: center;
+
 }
 
 .contact a {
@@ -269,7 +274,7 @@ nav a:hover {
 }
 
 .contact a:hover {
-  color: red;
+  color: black;
 }
 
 /* footer part */

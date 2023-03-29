@@ -310,6 +310,12 @@ footer p {
   .card {
     width: 90%;
   }
+   .aboutside {
+    height: 420px;
+   }
+  .workside {
+    height:650px;
+  } 
 }
 
 /*phone*/
@@ -328,6 +334,14 @@ footer p {
     padding: 10px;
     border-bottom: 5px solid black;
     margin: 10px 10px 10px 10px;
+    height: 100px;
+  }
+
+  .aboutside h2 {
+    height: 100px;
+   }
+  .workside {
+    height:100px;
   }
 
   header {
@@ -347,13 +361,12 @@ footer p {
   }
 
   
-.contact section {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 10px;
-}
-
+  .contact section {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+  }
 }
 

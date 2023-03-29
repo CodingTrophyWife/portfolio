@@ -42,4 +42,7 @@ Whatever you want to do with my portfolio is up to you boo boo! I dont judge!
 
 ![image](https://user-images.githubusercontent.com/126922695/227811728-e88c7b9f-68a6-465a-a7cf-be05dc1217f6.png)
 
+![Screenshot 2023-03-28 191610](https://user-images.githubusercontent.com/126922695/228409948-bb180545-8ab1-4ece-af0b-85810878b507.png)
 
+
+![Screenshot 2023-03-28 191636](https://user-images.githubusercontent.com/126922695/228410022-39efc7de-f9e0-4f9e-b3b2-d94cfd84e1f2.png)
